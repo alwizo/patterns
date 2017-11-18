@@ -7,6 +7,8 @@ $mallar_duck = new \Alwizo\Strategy\MallarDuck();
 $mallar_duck->display();
 $mallar_duck->performFly();
 $mallar_duck->performQuack();
+$mallar_duck->setFlyBehavior(new \Alwizo\Strategy\FlyRockedPowered());
+$mallar_duck->performFly();
 echo '<br>';
 
 $redhead_duck = new \Alwizo\Strategy\RedheadDuck();
