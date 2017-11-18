@@ -1,11 +1,16 @@
 {
-    "name": "aleksejwilczanskij/patterns",
-    "type": "project",
-    "authors": [
-        {
-            "name": "alwizo",
-            "email": "alwizo.com@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "aleksejwilczanskij/patterns",
+  "type": "project",
+  "authors": [
+    {
+      "name": "alwizo",
+      "email": "alwizo.com@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alwizo\\": "src/"
+    }
+  },
+  "require": {}
 }
