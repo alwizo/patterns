@@ -1,0 +1,11 @@
+{
+    "name": "aleksejwilczanskij/patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "alwizo",
+            "email": "alwizo.com@gmail.com"
+        }
+    ],
+    "require": {}
+}
