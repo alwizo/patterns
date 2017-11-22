@@ -2,8 +2,8 @@
 
 namespace Alwizo\Strategy;
 
-
-use Alwizo\Strategy\Duck;
+use Alwizo\Strategy\ConcreteBehaviors\FlyNoWay;
+use Alwizo\Strategy\ConcreteBehaviors\MuteQuack;
 
 class RedheadDuck extends Duck
 {

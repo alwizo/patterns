@@ -1,9 +1,10 @@
 <?php
 
-namespace Alwizo\Strategy;
-
+namespace Alwizo\Strategy\ConcreteDucks;
 
 use Alwizo\Strategy\Duck;
+use Alwizo\Strategy\ConcreteBehaviors\FlyWithWings;
+use Alwizo\Strategy\ConcreteBehaviors\Quack;
 
 class MallarDuck extends Duck
 {

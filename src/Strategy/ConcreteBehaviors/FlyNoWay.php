@@ -1,7 +1,8 @@
 <?php
 
-namespace Alwizo\Strategy;
+namespace Alwizo\Strategy\ConcreteBehaviors;
 
+use Alwizo\Strategy\FlyBehavior;
 
 class FlyNoWay implements FlyBehavior
 {
