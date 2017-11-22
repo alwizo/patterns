@@ -7,7 +7,11 @@ use Alwizo\Decorator\Beverages\Beverage;
 
 class Expresso extends Beverage
 {
+	public function getDescription() {
+		return 'This is Expresso';
+	}
+
 	public function cost() {
-		// TODO: Implement cost() method.
+		return 3;
 	}
 }

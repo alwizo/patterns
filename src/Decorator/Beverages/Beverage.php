@@ -5,19 +5,11 @@ namespace Alwizo\Decorator\Beverages;
 
 abstract class Beverage
 {
-	/**
-	 * All beverages have a description
-	 *
-	 * @var
-	 */
-	private $description;
 
 	/**
 	 * @return mixed
 	 */
-	public function getDescription() {
-		return $this->description;
-	}
+	abstract function getDescription();
 
 	/**
 	 * All beverages have a cost

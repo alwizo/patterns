@@ -10,4 +10,8 @@ class HouseBlend extends Beverage
 	public function cost() {
 		// TODO: Implement cost() method.
 	}
+
+	function getDescription() {
+		// TODO: Implement getDescription() method.
+	}
 }

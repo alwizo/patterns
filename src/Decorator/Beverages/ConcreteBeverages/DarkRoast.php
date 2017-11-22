@@ -8,6 +8,10 @@ use Alwizo\Decorator\Beverages\Beverage;
 class DarkRoast extends Beverage
 {
 	public function cost() {
-		// TODO: Implement cost() method.
+		return 2;
+	}
+
+	public function getDescription() {
+		return 'This is DarkRoast';
 	}
 }
